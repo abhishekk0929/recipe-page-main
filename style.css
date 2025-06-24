@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+body {
+background-color:  hsl(30, 54%, 90%);
+}
+main{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  
+}
+.boxx {
+    background-color: white;
+    max-width: 39rem;
+    display: flex;
+    border-radius: 15px;
+    height: auto;
+   padding-left: 64px;
+  padding-right: 59px;
+  padding-top: 87px;
+    justify-content: center;
+ flex-direction: column;
+ gap: 15px;
+}
+.imgs {
+   height: 250px;
+   
+   border-radius: 18px;
+   margin-top: -37px;
+}
+header {
+    font-family: "Young Serif", serif;
+    text-align:left;
+}
+.para {
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+   font-size: 13px;
+   width: 509px;
+}
+.prep
+{
+      font-family: "Outfit", sans-serif;
+     color: hsl(332, 51%, 32%);
+     font-size: 15px;
+     padding-left: 29px;
+     line-height: 1.5;
+}
+.prep ul
+{
+    color:hsl(30, 10%, 34%);
+      font-size: 13px;
+      gap: 10px;
+    
+}
+ul li {
+    padding-left: 1rem;
+}
+
+
+.prep li::marker
+{
+    color: hsl(332, 51%, 32%); 
+}
+.ing {
+     font-family: "Young Serif", serif;
+       color: hsl(14, 45%, 36%);
+}
+.ing ul{
+     font-family: "Outfit", sans-serif;
+      color:hsl(30, 10%, 34%);
+      font-size: 13px;
+      margin-bottom: 10px;
+}
+.ing li::marker
+{
+
+    color:  hsl(14, 45%, 36%);
+}
+.hrr
+ {
+  border: none;
+  height: 2px;
+  background-color:hsl(30, 18%, 87%);
+  margin: 20px 0;
+}
+.ins h2  {
+  font-family: "Young Serif", serif;
+       color: hsl(14, 45%, 36%);
+}
+ol li {
+    padding-left: 1rem;
+     font-family: "Outfit", sans-serif;
+      color:hsl(30, 10%, 34%);
+      font-size: 13px;
+       line-height: 1.5;
+       margin-bottom: 10px;
+}
+ol{
+      padding-left: 16px;
+}
+.ins {
+     line-height: 1.5;
+}
+.hrrr{
+      border: none;
+  height: 2px;
+  background-color:hsl(30, 18%, 87%);
+  /* margin: 20px 0; */
+}
+.last h2{
+     font-family: "Young Serif", serif;
+       color: hsl(14, 45%, 36%);
+}
+.last   {
+  font-family: "Outfit", sans-serif;
+      color:hsl(30, 10%, 34%);     
+}
+.last p {
+     font-family: "Outfit", sans-serif;
+      color:hsl(30, 10%, 34%);   
+      font-size: 13px;  
+}
+.tab{
+    width: 100%;
+  border-collapse: collapse; /* Merges cell borders cleanly */
+  margin-top: 20px;
+    line-height: 2;
+ margin-bottom: 25px;}
+
+.col{
+ color: hsl(14, 45%, 36%);}
+ .tab td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.attribution
+{
+     font-family: "Outfit", sans-serif;
+    text-align: center;
+  
+    font-size: 12px;
+}
+a{
+    color:  hsl(14, 45%, 36%);}
+@media (max-width: 768px) {
+  .boxx {
+    padding: 30px 20px;
+  }
+  .imgs {
+    width: 100%;
+    height: auto;
+  }
+  .para {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
