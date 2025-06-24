@@ -145,3 +145,16 @@ ol{
 a{
     color:  hsl(14, 45%, 36%);}
 
+@media (max-width: 768px) {
+  .boxx {
+    padding: 30px 20px;
+  }
+  .imgs {
+    width: 100%;
+    height: auto;
+  }
+  .para {
+    width: 100%;
+    font-size: 14px;
+  }
+}
