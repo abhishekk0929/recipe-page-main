@@ -8,7 +8,8 @@ Live Demo: (https://abhishekk0929.github.io/recipe-page-main/)
 ## 📸 Screenshot
 
 <!-- Replace with your actual screenshot path -->
-![Recipe Page Screenshot](./design/recipepage-@abhi.png)
+[Recipe Page Screenshot](./design/recipe%20page-@abhi.png)
+
 
 ---
 
